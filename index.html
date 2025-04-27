@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ClearView Window Cleaning - Bahrain</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header id="header" class="header">
+    <div class="container">
+      <h1 class="fade-in">ClearView Window Cleaning</h1>
+      <nav>
+        <ul class="nav-links slide-in-top">
+          <li><a href="#services">Services</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="container">
+      <h2 class="fade-in">Crystal Clear Windows Every Time!</h2>
+      <p class="fade-in-delay">Professional window cleaning service across Bahrain.</p>
+      <a href="#contact" class="btn bounce">Get a Free Quote</a>
+    </div>
+  </section>
+
+  <section id="services" class="services">
+    <div class="container">
+      <h2 class="slide-in-left">Our Services</h2>
+      <div class="service-cards">
+        <div class="card zoom-in">
+          <h3>Residential Cleaning</h3>
+          <p>Clean windows for homes, villas, and apartments.</p>
+        </div>
+        <div class="card zoom-in-delay">
+          <h3>Commercial Cleaning</h3>
+          <p>Shining windows for offices, showrooms, and shops.</p>
+        </div>
+        <div class="card zoom-in-late">
+          <h3>High-Rise Cleaning</h3>
+          <p>Expert service for skyscrapers and tall buildings.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="about">
+    <div class="container">
+      <h2 class="slide-in-right">About Us</h2>
+      <p class="fade-in-delay">
+        At ClearView, we specialize in professional, eco-friendly window cleaning in Bahrain. With over a decade of experience, we bring a sparkle to every glass pane we touch.
+      </p>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <div class="container">
+      <h2 class="slide-in-bottom">Get in Touch</h2>
+      <form class="fade-in">
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Your Email" required>
+        <textarea placeholder="Your Message" required></textarea>
+        <button type="submit" class="btn bounce">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <p class="fade-in">© 2025 ClearView Window Cleaning Bahrain | All Rights Reserved</p>
+    </div>
+  </footer>
+
+  <script>
+    // Header fade on scroll
+    const header = document.getElementById('header');
+    window.addEventListener('scroll', () => {
+      if (window.scrollY > 50) {
+        header.classList.add('scrolled');
+      } else {
+        header.classList.remove('scrolled');
+      }
+    });
+  </script>
+
+</body>
+</html>
